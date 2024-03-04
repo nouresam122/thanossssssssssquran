@@ -114,7 +114,7 @@ async function startBot(){
        player.play(resource)
       } catch(e){
          // في حال ظهور اي خطا احذف الشرطين من سطر اسفل هذه التعليق لمعرفة اين الخطا
-        //console.error(e)
+        console.error(e)
       }
   }
 }
