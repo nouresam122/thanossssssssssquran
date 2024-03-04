@@ -7,6 +7,7 @@ import Database from "st.db";
 import ms from 'ms';
 import radio_choices from "./channels.mjs";
 import replit from "quick.replit"
+const keep_alive = require("./keep_alive.js");
 const config_db = new replit.Database(process.env["REPLIT_DB_URL"])
 const config_delete_db = new Database({path:"./datas/config.yml"})
 await getStarted()
